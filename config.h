@@ -12,24 +12,24 @@ static struct swm_keys_t keys[] =
 {
 	/*   modifier          key        function    NULL      x    y       */
 	{    MOD,              XK_h,      move,       NULL,    -50,  0       },
-	{    MOD,              XK_n,      move,       NULL,      0,  50      },
-	{    MOD,              XK_e,      move,       NULL,      0, -50      },
-	{    MOD,              XK_i,      move,       NULL,     50,  0       },
+	{    MOD,              XK_k,      move,       NULL,      0,  50      },
+	{    MOD,              XK_j,      move,       NULL,      0, -50      },
+	{    MOD,              XK_l,      move,       NULL,     50,  0       },
 
 	{    MOD|CTRL,         XK_h,      move,       NULL,     -1,  0       },
-	{    MOD|CTRL,         XK_n,      move,       NULL,      0,  1       },
-	{    MOD|CTRL,         XK_e,      move,       NULL,      0, -1       },
-	{    MOD|CTRL,         XK_i,      move,       NULL,      1,  0       },
+	{    MOD|CTRL,         XK_k,      move,       NULL,      0,  1       },
+	{    MOD|CTRL,         XK_j,      move,       NULL,      0, -1       },
+	{    MOD|CTRL,         XK_l,      move,       NULL,      1,  0       },
 
 	{    MOD|SHIFT,        XK_h,      resize,     NULL,    -50,  0       },
-	{    MOD|SHIFT,        XK_n,      resize,     NULL,      0,  50      },
-	{    MOD|SHIFT,        XK_e,      resize,     NULL,      0, -50      },
-	{    MOD|SHIFT,        XK_i,      resize,     NULL,     50,  0       },
+	{    MOD|SHIFT,        XK_k,      resize,     NULL,      0,  50      },
+	{    MOD|SHIFT,        XK_j,      resize,     NULL,      0, -50      },
+	{    MOD|SHIFT,        XK_l,      resize,     NULL,     50,  0       },
 
 	{    MOD|CTRL|SHIFT,   XK_h,      resize,     NULL,     -1,  0       },
-	{    MOD|CTRL|SHIFT,   XK_n,      resize,     NULL,      0,  1       },
-	{    MOD|CTRL|SHIFT,   XK_e,      resize,     NULL,      0, -1       },
-	{    MOD|CTRL|SHIFT,   XK_i,      resize,     NULL,      1,  0       },
+	{    MOD|CTRL|SHIFT,   XK_k,      resize,     NULL,      0,  1       },
+	{    MOD|CTRL|SHIFT,   XK_j,      resize,     NULL,      0, -1       },
+	{    MOD|CTRL|SHIFT,   XK_l,      resize,     NULL,      1,  0       },
 
 	/*   modifier          key        NULL        function               */
 	{    MOD,              XK_q,      NULL,       killwin                },
